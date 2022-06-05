@@ -2,40 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Instagram</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Instagrass</title>
 </head>
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
-        </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+    <div class ="main-container" >
+
+        <img id="img-left" src="img/instagrass-celular.jpg" alt="Tela de smartphone">    
+
+    
+        <section>
+            <article class="permanent-screen">
+                
+                <img id="img-right" src="img/instagram-logo.png" alt="Logomarca Instagrass">            
+                
+                <form class="main-container form">
+                    <input class="inputs"  type="text" placeholder="Telefone, nome de usuário ou email">
+                    <input class="inputs"  type="password" placeholder="Senha">
+                    <input class="inputs"  type="submit" value="Entrar">  
+                </form>
+
+                <p id="ou">OU</p>
+                <input class = "fb" type="button" value="Entrar com o Facebook">
+                <a id="esqueci" href="#">Esqueceu a senha?</a>
+
+
+                <p id="of-cad">Não tem uma conta? <a id="cad" href=""> Cadastre-se</a></p>
+
+                <p id="of-app">Obtenha o aplicativo.</p>
+
+
+                <div> 
+                    <button class="digital-store app-store"> 
+                    <button class="digital-store google-play"> 
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
-                </div>
-            </div>
-        </div>
+
+            </article>
+        </section>
     </div>
+
+    <footer class="footer-container">
+        <div class ="footer1" >
+            <a>Meta</a>
+            <a>Sobre</a>
+            <a>Blog</a>
+            <a>Carreiras</a>
+            <a>Ajuda</a>
+            <a>API</a>
+            <a>Privacidade</a>
+            <a>Termos</a>
+            <a>Principais contas</a>
+            <a>Hashtags</a>
+            <a>Localizações</a>
+            <a>Instagram Lite</a>
+            <a>Carregamento de contatos e não usuários</a>
+        </div>
+
+        <div class ="footer1">    
+            <a>Dança</a>
+            <a>Comida e bebida</a>
+            <a>Casa e jardim</a>
+            <a>Música</a>
+            <a>Artes visuais</a>
+        </div>
+
+        <div class ="footer2">
+            <p>Português (Brasil)</p> <!--dropdown menu-->
+            
+             <p>© 2022 Instagrass from Alexandre Carvalho</p>
+        </div>
+
+    </footer>
+
+    
 </body>
 </html>
